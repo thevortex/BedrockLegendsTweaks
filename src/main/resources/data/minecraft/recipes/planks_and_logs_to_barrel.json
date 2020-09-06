@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#J#",
+        "J#J",
+        "#J#"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "J": {
+            "tag": "minecraft:logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:barrel",
+        "count": 2
+    }
+}
