@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:quartz"
+            "tag": "forge:gems/quartz"
         },
         "/": {
             "tag": "forge:rods/wooden"

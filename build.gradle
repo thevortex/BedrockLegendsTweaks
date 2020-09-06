@@ -23,7 +23,7 @@ mixin {
     add sourceSets.main, "bltweaks.refmap.json"
 }
 
-version = '0.8'
+version = '0.9'
 group = 'com.bedrocklegends.blt' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'bltweaks'
 
