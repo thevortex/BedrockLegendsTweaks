@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:dyes"
+      "tag": "forge:dyes/red"
     },
     "B": {
       "tag": "forge:storage_blocks/compressed_obsidian"
