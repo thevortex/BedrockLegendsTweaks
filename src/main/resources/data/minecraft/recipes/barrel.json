@@ -1,19 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "PSP",
-    "S S",
-    "PSP"
-  ],
-  "key": {
-    "P": {
-      "tag": "minecraft:planks"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#J#",
+        "J#J",
+        "#J#"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "J": {
+            "tag": "minecraft:logs"
+        }
     },
-    "S": {
-      "tag": "minecraft:logs"
+    "result": {
+        "item": "minecraft:barrel",
+        "count": 2
     }
-  },
-  "result": {
-    "item": "minecraft:barrel"
-  }
 }
