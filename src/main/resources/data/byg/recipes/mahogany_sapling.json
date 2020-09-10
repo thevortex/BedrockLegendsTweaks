@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " C "
+    ],
+    "key": {
+        "I": {
+            "item": "byg:mahogany_leaves"
+        },
+        "C": {
+            "tag": "byg:mahogany_logs"
+        }
+    },
+    "result": {
+        "item": "byg:mahogany_sapling",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " C "
+    ],
+    "key": {
+        "I": {
+            "item": "byg:cika_leaves"
+        },
+        "C": {
+            "tag": "byg:cika_logs"
+        }
+    },
+    "result": {
+        "item": "byg:cika_sapling",
+        "count": 1
+    }
+}

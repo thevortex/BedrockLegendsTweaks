@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " C "
+    ],
+    "key": {
+        "I": {
+            "item": "byg:maple_leaves"
+        },
+        "C": {
+            "tag": "byg:maple_logs"
+        }
+    },
+    "result": {
+        "item": "byg:maple_sapling",
+        "count": 1
+    }
+}
