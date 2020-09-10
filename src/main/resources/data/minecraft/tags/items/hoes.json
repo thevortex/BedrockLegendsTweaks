@@ -6,6 +6,9 @@
         "minecraft:iron_hoe",
         "minecraft:golden_hoe",
         "minecraft:diamond_hoe",
-        "minecraft:netherite_hoe"
+        "minecraft:netherite_hoe",
+        "appliedenergistics2:certus_quartz_hoe",
+        "appliedenergistics2:nether_quartz_hoe",
+        "byg:pendorite_hoe"
     ]
 }
