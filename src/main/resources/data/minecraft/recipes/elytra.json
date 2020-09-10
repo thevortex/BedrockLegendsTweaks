@@ -10,7 +10,7 @@
             "item": "minecraft:cobweb"
         },
         "E": {
-            "item": "minecraft:emerald"
+            "tag": "forge:gems/emerald"
         },
         "G": {
             "item": "minecraft:diamond_chestplate"
