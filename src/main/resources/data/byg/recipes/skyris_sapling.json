@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " C "
+    ],
+    "key": {
+        "I": {
+            "item": "byg:skyris_leaves"
+        },
+        "C": {
+            "tag": "byg:skyris_logs"
+        }
+    },
+    "result": {
+        "item": "byg:skyris_sapling",
+        "count": 1
+    }
+}
