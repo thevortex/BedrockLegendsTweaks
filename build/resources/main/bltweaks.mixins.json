@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.bedrocklegends.blt.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "bltweaks.refmap.json",
+  "mixins": [
+   
+  ],
+  "client":[
+    "ProgressLoadGuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

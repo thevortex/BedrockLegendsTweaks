@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: bltweaks
+Specification-Vendor: BedrockLegends
+Specification-Version: 1
+Implementation-Title: BedrockLegendsTweaks
+Implementation-Version: 0.18
+Implementation-Vendor: thevortex
+Implementation-Timestamp: 2020-09-12T20:20:23-0500
+MixinConfigs: bltweaks.mixins.json
+

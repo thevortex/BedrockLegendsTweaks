@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " C "
+    ],
+    "key": {
+        "I": {
+            "item": "byg:rainbow_eucalyptus_leaves"
+        },
+        "C": {
+            "tag": "byg:rainbow_eucalyptus_logs"
+        }
+    },
+    "result": {
+        "item": "byg:rainbow_eucalyptus_sapling",
+        "count": 1
+    }
+}
