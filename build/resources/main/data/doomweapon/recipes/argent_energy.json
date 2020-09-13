@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDBDB",
+    "CBDBC",
+    "BDBDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "ironcoals:aeon_coal"
+    },
+    "B": {
+      "tag": "engineersdecor:brick_blocks"
+    },
+    "C": {
+      "item": "botania:blaze_block"
+    },
+    "D": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "doomweapon:argent_energy"
+  }
+}
