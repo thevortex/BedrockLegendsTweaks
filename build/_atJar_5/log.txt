@@ -1,5 +1,0 @@
-Args: "--inJar", "C:\Users\Home\Documents\GitHub\BedrockLegendsTweaks\build\fg_cache\net\minecraftforge\forge\1.16.3-34.0.1\forge-1.16.3-34.0.1-injected.jar", "--outJar", "C:\Users\Home\Documents\GitHub\BedrockLegendsTweaks\build\fg_cache\net\minecraftforge\forge\1.16.3-34.0.1_mapped_snapshot_20200514-1.16\forge-1.16.3-34.0.1_mapped_snapshot_20200514-1.16.jar", "--logFile", "accesstransform.log", "--atFile", "C:\Users\Home\Documents\GitHub\BedrockLegendsTweaks\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\Home\Documents\GitHub\BedrockLegendsTweaks\build\_atJar_5\parent_at.cfg"
-Classpath: C:\Users\Home\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\1.0.5\accesstransformers-1.0.5-fatjar.jar
-WorkDir: C:\Users\Home\Documents\GitHub\BedrockLegendsTweaks\build\_atJar_5
-Main: net.minecraftforge.accesstransformer.TransformerProcessor
-====================================
