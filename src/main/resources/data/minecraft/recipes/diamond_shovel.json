@@ -1,12 +1,23 @@
 {
-    "type": "minecraft:smithing",
-    "base": {
-        "item": "minecraft:golden_shovel"
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   A   ",
+    "  AAA  ",
+    " AABAA ",
+    "  AAA  ",
+    "   A   ",
+    "   A   ",
+    "   A   "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:gems/mana_diamond"
     },
-    "addition": {
-        "item": "botania:mana_diamond"
-    },
-    "result": {
-        "item": "minecraft:diamond_shovel"
+    "B": {
+      "tag": "minecraft:golden_shovel"
     }
+  },
+  "result": {
+    "item": "minecraft:diamond_shovel"
+  }
 }

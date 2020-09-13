@@ -1,12 +1,23 @@
 {
-    "type": "minecraft:smithing",
-    "base": {
-        "item": "minecraft:golden_sword"
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   A   ",
+    "  ABA  ",
+    "  AAA  ",
+    "  AAA  ",
+    " AAAAA ",
+    "   A   ",
+    "   A   "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:gems/mana_diamond"
     },
-    "addition": {
-        "item": "botania:mana_diamond_block"
-    },
-    "result": {
-        "item": "minecraft:diamond_sword"
+    "B": {
+      "tag": "minecraft:golden_sword"
     }
+  },
+  "result": {
+    "item": "minecraft:diamond_sword"
+  }
 }
