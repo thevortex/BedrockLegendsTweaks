@@ -1,597 +1,344 @@
-# This is an example mods.toml file. It contains the data relating to the loading mods.
-# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
-# The overall format is standard TOML format, v0.5.0.
-# Note that there are a couple of TOML lists in this file.
-# Find more information on toml format here:  https://github.com/toml-lang/toml
-# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
-modLoader="javafml" #mandatory
-# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion="[33,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
-# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+modLoader="javafml"
+loaderVersion="[34,)"
 license="All rights reserved"
-# A URL to refer people to when problems occur with this mod
-#issueTrackerURL="http://my.issue.tracker/" #optional
-# A list of mods - how many allowed here is determined by the individual mod loader
-[[mods]] #mandatory
-# The modid of the mod
-modId="bltweaks" #mandatory
-# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="${file.jarVersion}" #mandatory
- # A display name for the mod
-displayName="Bedrock Legends Tweaks" #mandatory
-# A URL to query for updates for this mod. See the JSON update specification <here>
-#updateJSONURL="http://myurl.me/" #optional
-# A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="http://example.com/" #optional
-# A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
-# A text field displayed in the mod UI
-#credits="Thanks for this example mod goes to Java" #optional
-# A text field displayed in the mod UI
-authors="thevortex" #optional
-# The description text for the mod (multi line!) (#mandatory)
-description='''
-Simple Tweaks class
-'''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="forge" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
-    # The version range of the dependency
-    versionRange="[33,)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+issueTrackerURL="https://github.com/thevortex/BedrockLegendsTweaks/issues"
+
+[[mods]]
+modId="bltweaks"
+version="${file.jarVersion}" 
+displayName="Bedrock Legends Tweaks"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/bedrocklegends-tweaks"
+logoFile="logo.png"
+authors="thevortex"
+description="BedrockLegends tweaks is a mod design to add specific tweaks to modpacks made by ModernGamingWorld. "
+
+[[dependencies.bltweaks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
     ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="jei" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="apotheosis"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="jeresources" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="appliedenergistics2"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="extendedcrafting" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="botania" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="jeresources" 
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="refinedstorage" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="extendedcrafting"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="invtweaks" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="botania"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="rftoolscontrol" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
+[[dependencies.bltweaks]]
+    modId="refinedstorage"
+    mandatory=false
     # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="rftoolsbase" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="invtweaks"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="rftoolsbuilder" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="rftoolscontrol"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="rftoolspower" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="rftoolsbase"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="apotheosis" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="rftoolsbuilder"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="appliedenergistics2" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="rftoolspower"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="farmingforblockheads" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="farmingforblockheads"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="clickmachine" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="clickmachine"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 	
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="cookingforblockheads" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="cookingforblockheads"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="xnet" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="xnet"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="byg" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="byg"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="cosmeticarmorreworked" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="cosmeticarmorreworked"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="creativecore" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="creativecore"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="curios" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="curios"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="demagnetize" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="demagnetize"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="enderchests" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="enderchests"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="endermail" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="endermail"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="engineersdecor" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="engineersdecor"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="extremesoundmuffler" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="extremesoundmuffler"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="golems" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="golems"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="ironchest" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="ironchest"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="mininggadgets" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="mininggadgets"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="multibeds" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="multibeds"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="patchouli" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="polymorph" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="polymorph"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="realms" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="realms"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="realms" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="realms"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="shetiphiancore" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="shetiphiancore"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="shetiphianguide" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="shetiphianguide"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="speedyhoppers" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="speedyhoppers"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="storagedrawers" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="storagedrawers"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="theoneprobe" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="theoneprobe"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="toolbelt" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="toolbelt"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="trashslot" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="trashslot"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="travelersbackpack" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="travelersbackpack"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="usefulrailroads" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="usefulrailroads"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 	
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="valkyrielib" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="valkyrielib"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="buildersaddition" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="buildersaddition" 
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.bltweaks]] #optional
-    # the modid of the dependency
-    modId="betteradvancements" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=false #mandatory
-    # The version range of the dependency
-    versionRange="[0,99)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.bltweaks]]
+    modId="betteradvancements"
+    mandatory=false
+    versionRange="[0,99)"
     ordering="BEFORE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 	
 # Here's another dependency
 [[dependencies.bltweaks]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.2]"
+    versionRange="[1.16.3,1.17]"
     ordering="NONE"
     side="BOTH"
-
