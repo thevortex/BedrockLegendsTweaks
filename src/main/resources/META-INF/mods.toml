@@ -12,12 +12,23 @@ logoFile="logo.png"
 authors="thevortex"
 description="BedrockLegends tweaks is a mod design to add specific tweaks to modpacks made by ModernGamingWorld. "
 
+#required
+
 [[dependencies.bltweaks]]
     modId="forge"
     mandatory=true
     versionRange="[34,35)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3,1.17]"
+    ordering="NONE"
+    side="BOTH"
+
+#optional
 
 [[dependencies.bltweaks]]
     modId="apotheosis"
@@ -34,21 +45,7 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="jei"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="jeresources" 
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="extendedcrafting"
+    modId="betteradvancements"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -62,71 +59,7 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="refinedstorage"
-    mandatory=false
-    # The version range of the dependency
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="invtweaks"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="rftoolscontrol"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="rftoolsbase"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="rftoolsbuilder"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="rftoolspower"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="farmingforblockheads"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="clickmachine"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-	
-[[dependencies.bltweaks]]
-    modId="cookingforblockheads"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="xnet"
+    modId="buildersaddition" 
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -140,14 +73,21 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="cosmeticarmorreworked"
+    modId="clickmachine"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="creativecore"
+    modId="cookingforblockheads"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="cosmeticarmorreworked"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -182,7 +122,7 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="engineersdecor"
+    modId="extendedcrafting"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -196,6 +136,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="farmingforblockheads"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="golems"
     mandatory=false
     versionRange="[0,99)"
@@ -203,7 +150,28 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="invtweaks"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="ironchest"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="jeresources"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -231,6 +199,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="polymorph"
     mandatory=false
     versionRange="[0,99)"
@@ -238,7 +213,7 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="realms"
+    modId="prefab"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -246,6 +221,41 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="realms"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="refinedstorage"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="rftoolsbase"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="rftoolsbuilder"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="rftoolscontrol"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="rftoolspower"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -313,7 +323,7 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     versionRange="[0,99)"
     ordering="BEFORE"
     side="BOTH"
-	
+
 [[dependencies.bltweaks]]
     modId="valkyrielib"
     mandatory=false
@@ -322,23 +332,8 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="buildersaddition" 
+    modId="xnet"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
-    modId="betteradvancements"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-	
-# Here's another dependency
-[[dependencies.bltweaks]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.16.3,1.17]"
-    ordering="NONE"
     side="BOTH"
