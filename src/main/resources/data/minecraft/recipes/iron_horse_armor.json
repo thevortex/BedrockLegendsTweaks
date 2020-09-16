@@ -4,7 +4,7 @@
         "item": "minecraft:leather_horse_armor"
     },
     "addition": {
-        "item": "minecraft:iron_block"
+        "tag": "forge:storage_blocks/iron"
     },
     "result": {
         "item": "minecraft:iron_horse_armor"
