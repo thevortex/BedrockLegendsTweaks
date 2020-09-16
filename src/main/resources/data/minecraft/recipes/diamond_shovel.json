@@ -1,23 +1,23 @@
 {
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "   A   ",
-    "  AAA  ",
-    " AABAA ",
-    "  AAA  ",
-    "   A   ",
-    "   A   ",
-    "   A   "
-  ],
-  "key": {
-    "A": {
-      "tag": "forge:gems/mana_diamond"
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "   A   ",
+        "  AAA  ",
+        " AABAA ",
+        "  AAA  ",
+        "   A   ",
+        "   A   ",
+        "   A   "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:gems/mana_diamond"
+        },
+        "B": {
+            "tag": "minecraft:golden_shovel"
+        }
     },
-    "B": {
-      "tag": "minecraft:golden_shovel"
+    "result": {
+        "item": "minecraft:diamond_shovel"
     }
-  },
-  "result": {
-    "item": "minecraft:diamond_shovel"
-  }
 }

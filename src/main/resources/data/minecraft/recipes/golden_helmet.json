@@ -1,21 +1,21 @@
 {
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "AAAAA",
-    "AABAA",
-    "A   A",
-    "     ",
-    "     "
-  ],
-  "key": {
-    "A": {
-      "tag": "forge:ingots/gold"
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAA",
+        "AABAA",
+        "A   A",
+        "     ",
+        "     "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "minecraft:iron_helmet"
+        }
     },
-    "B": {
-      "item": "minecraft:iron_helmet"
+    "result": {
+        "item": "minecraft:golden_helmet"
     }
-  },
-  "result": {
-    "item": "minecraft:golden_helmet"
-  }
 }

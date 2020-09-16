@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "PSP",
-    "SSS",
-    "SSS"
-  ],
-  "key": {
-    "S": {
-      "tag": "forge:ingots/gold"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PSP",
+        "SSS",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:ingots/gold"
+        },
+        "P": {
+            "tag": "forge:rods/wooden"
+        }
     },
-    "P": {
-      "tag": "forge:rods/wooden"
+    "result": {
+        "item": "minecraft:bell"
     }
-  },
-  "result": {
-    "item": "minecraft:bell"
-  }
 }
