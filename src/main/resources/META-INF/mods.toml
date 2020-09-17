@@ -45,6 +45,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="ars_nouveau"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="betteradvancements"
     mandatory=false
     versionRange="[0,99)"
@@ -66,7 +73,21 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="buildinggadgets" 
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="byg"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="chancecubes"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -88,6 +109,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="cosmeticarmorreworked"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="culinaryconstruct"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -143,7 +171,21 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="ftbchunks"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="golems"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="industrialforegoing"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -297,6 +339,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="titanium"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="toolbelt"
     mandatory=false
     versionRange="[0,99)"
@@ -326,6 +375,20 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="valkyrielib"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="vanillatweaks"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="woot"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
