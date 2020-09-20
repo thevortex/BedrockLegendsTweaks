@@ -1,16 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#J#",
-        "J#J",
-        "#J#"
+        " J ",
+        "JKJ",
+        " J "
     ],
     "key": {
-        "#": {
-            "tag": "forge:treated_wood"
-        },
         "J": {
             "tag": "minecraft:logs"
+        },
+        "K": {
+            "item": "immersiveengineering:wooden_barrel"
         }
     },
     "result": {
