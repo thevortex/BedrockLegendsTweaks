@@ -13,13 +13,13 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:ingots/unobtainium"
+      "item": "gobber2:gobber2_links_end"
     },
     "B": {
-      "item": "gobber2:gobber2_chestplate_end"
+      "item": "allthemodium:vibranium_chestplate"
     }
   },
   "result": {
-    "item": "allthemodium:unobtainium_chestplate"
+    "item": "gobber2:gobber2_chestplate_end"
   }
 }

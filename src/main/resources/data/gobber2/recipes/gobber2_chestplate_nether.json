@@ -1,7 +1,7 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "AA     AA",
+    "A       A",
     "AAA   AAA",
     "AAA   AAA",
     "  AABAA  ",
@@ -13,13 +13,13 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:ingots/unobtainium"
+      "item": "gobber2:gobber2_ingot_nether"
     },
     "B": {
-      "item": "gobber2:gobber2_chestplate_end"
+      "item": "allthemodium:allthemodium_chestplate"
     }
   },
   "result": {
-    "item": "allthemodium:unobtainium_chestplate"
+    "item": "gobber2:gobber2_chestplate_nether"
   }
 }

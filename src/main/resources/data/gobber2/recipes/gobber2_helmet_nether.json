@@ -13,13 +13,13 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:ingots/vibranium"
+      "item": "gobber2:gobber2_ingot_nether"
     },
     "B": {
-      "item": "gobber2:gobber2_helmet_nether"
+      "item": "allthemodium:allthemodium_helmet"
     }
   },
   "result": {
-    "item": "allthemodium:vibranium_helmet"
+    "item": "gobber2:gobber2_helmet_nether"
   }
 }

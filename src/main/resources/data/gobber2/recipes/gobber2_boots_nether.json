@@ -1,25 +1,25 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "         ",
-    "         ",
-    "         ",
     "  AA AA  ",
     "  AA AA  ",
     "  AA AA  ",
     "  AABAA  ",
     "AAAA AAAA",
-    "AAAA AAAA"
+    "AAAA AAAA",
+    "         ",
+    "         ",
+    "         "
   ],
   "key": {
     "A": {
-      "tag": "forge:ingots/allthemodium"
+      "item": "gobber2:gobber2_ingot_nether"
     },
     "B": {
-      "item": "gobber2:gobber2_boots"
+      "item": "allthemodium:allthemodium_boots"
     }
   },
   "result": {
-    "item": "allthemodium:allthemodium_boots"
+    "item": "gobber2:gobber2_boots_nether"
   }
 }

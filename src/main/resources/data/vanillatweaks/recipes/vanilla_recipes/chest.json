@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:logs"
+    },
+	"B": {
+      "item": "ironchest:dirt_chest"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest"
+  }
+}
