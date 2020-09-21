@@ -10,7 +10,7 @@
             "tag": "forge:chests"
         },
         "I": {
-            "tag": "forge:ingots/iron"
+            "tag": "forge:plates/iron"
         }
     },
     "result": {

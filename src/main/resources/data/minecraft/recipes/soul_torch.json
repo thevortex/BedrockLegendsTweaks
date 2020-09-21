@@ -12,7 +12,7 @@
             }
         ],
         "#": {
-            "tag": "forge:rods/wooden"
+            "tag": "forge:rods/treated_wood"
         },
         "S": {
             "tag": "minecraft:soul_fire_base_blocks"

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        " X ",
+        "///"
+    ],
+    "key": {
+        "/": { "item": "storagedrawers:acacia_trim" },
+        "X": { "tag": "forge:chests/wooden" }
+    },
+    "result": { "item": "minecraft:air", "count": 1 }
+}
