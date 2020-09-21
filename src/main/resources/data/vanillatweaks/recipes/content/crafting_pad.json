@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " S ",
-    "SQS",
-    " S "
-  ],
-  "key": {
-    "Q": {
-      "tag": "forge:rods/wooden"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PSP",
+        "SPS",
+        "PSP"
+    ],
+    "key": {
+        "S": {
+            "tag": "minecraft:logs"
+        },
+        "P": {
+            "tag": "forge:rods/wooden"
+        }
     },
-    "S": {
-      "tag": "minecraft:logs"
+    "result": {
+        "item": "vanillatweaks:pad"
     }
-  },
-  "result": {
-    "item": "vanillatweaks:pad"
-  }
 }

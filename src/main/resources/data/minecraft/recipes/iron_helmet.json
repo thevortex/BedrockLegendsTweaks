@@ -1,4 +1,5 @@
 {
+
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "AAA",
@@ -8,12 +9,22 @@
   "key": {
     "A": {
       "tag": "forge:ingots/iron"
+
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "   "
+    ],
+    "key": {
+        "A": {
+            "tag": "minecraft:beacon_payment_items"
+        },
+        "B": {
+            "item": "minecraft:chainmail_helmet"
+        }
     },
-    "B": {
-      "item": "minecraft:chainmail_helmet"
+    "result": {
+        "item": "minecraft:iron_helmet"
     }
-  },
-  "result": {
-    "item": "minecraft:iron_helmet"
-  }
 }

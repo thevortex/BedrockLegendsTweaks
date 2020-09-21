@@ -1,21 +1,21 @@
 {
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "   A ",
-    "  AA ",
-    " AABA",
-    "  AAA",
-    " A   "
-  ],
-  "key": {
-    "A": {
-      "tag": "forge:ingots/gold"
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "   A ",
+        "  AA ",
+        " AABA",
+        "  AAA",
+        " A   "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "minecraft:iron_axe"
+        }
     },
-    "B": {
-      "item": "minecraft:iron_axe"
+    "result": {
+        "item": "minecraft:golden_axe"
     }
-  },
-  "result": {
-    "item": "minecraft:golden_axe"
-  }
 }

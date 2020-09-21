@@ -1,21 +1,21 @@
 {
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    " AAA ",
-    " ABA ",
-    "  A  ",
-    "  A  ",
-    "  A  "
-  ],
-  "key": {
-    "A": {
-      "tag": "forge:ingots/gold"
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        " AAA ",
+        " ABA ",
+        "  A  ",
+        "  A  ",
+        "  A  "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "minecraft:iron_shovel"
+        }
     },
-    "B": {
-      "item": "minecraft:iron_shovel"
+    "result": {
+        "item": "minecraft:golden_shovel"
     }
-  },
-  "result": {
-    "item": "minecraft:golden_shovel"
-  }
 }
