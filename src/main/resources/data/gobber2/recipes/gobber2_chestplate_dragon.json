@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#J ",
+        "   ",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "allthemodium:unobtainium_chestplate"
+        },
+        "J": {
+            "item": "gobber2:dragon_elytra"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_chestplate_dragon"
+    }
+}

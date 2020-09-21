@@ -13,13 +13,13 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:ingots/vibranium"
+      "item": "gobber2:gobber2_links_end"
     },
     "B": {
-      "item": "gobber2:gobber2_leggings_nether"
+      "item": "allthemodium:vibranium_leggings"
     }
   },
   "result": {
-    "item": "allthemodium:vibranium_leggings"
+    "item": "gobber2:gobber2_leggings_end"
   }
 }
