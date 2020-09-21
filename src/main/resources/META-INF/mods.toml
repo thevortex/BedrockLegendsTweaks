@@ -129,6 +129,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="cyclic"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="demagnetize"
     mandatory=false
     versionRange="[0,99)"
@@ -234,6 +241,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="mysticalagriculture"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="patchouli"
     mandatory=false
     versionRange="[0,99)"
@@ -256,6 +270,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="prefab"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="pneumaticcraft"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -326,6 +347,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="storagedrawers"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="storagenetwork"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
