@@ -4,31 +4,31 @@
             "tag": "forge:ingots/compressed_iron"
         },
         {
-            "item": "appliedenergistics2:calculation_processor"
+            "tag": "forge:ingots/compressed_iron"
         },
         {
             "tag": "forge:ingots/compressed_iron"
         },
         {
-            "tag": "appliedenergistics2:glass_cable"
-        },
-        {
-            "tag": "appliedenergistics2:glass_cable"
+            "tag": "forge:ingots/compressed_iron"
         },
         {
             "tag": "forge:ingots/compressed_iron"
         },
         {
-            "item": "appliedenergistics2:logic_processor"
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "item": "appliedenergistics2:energy_acceptor"
         },
         {
             "tag": "forge:ingots/compressed_iron"
         }
     ],
-    "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
+    "inputFluid": "{FluidName:\"minecraft:lava\",Amount:2000}",
     "processingTime": 320,
     "output": {
-        "item": "appliedenergistics2:crafting_unit",
+        "item": "appliedenergistics2:vibration_chamber",
         "count": 1
     },
     "type": "industrialforegoing:dissolution_chamber"

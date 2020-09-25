@@ -4,22 +4,22 @@
             "tag": "forge:ingots/compressed_iron"
         },
         {
-            "item": "appliedenergistics2:calculation_processor"
+            "item": "appliedenergistics2:quartz_vibrant_glass"
         },
         {
             "tag": "forge:ingots/compressed_iron"
         },
         {
-            "tag": "appliedenergistics2:glass_cable"
+            "item": "appliedenergistics2:quartz_vibrant_glass"
         },
         {
-            "tag": "appliedenergistics2:glass_cable"
+            "item": "appliedenergistics2:quartz_vibrant_glass"
         },
         {
             "tag": "forge:ingots/compressed_iron"
         },
         {
-            "item": "appliedenergistics2:logic_processor"
+            "item": "appliedenergistics2:quartz_vibrant_glass"
         },
         {
             "tag": "forge:ingots/compressed_iron"
@@ -28,7 +28,7 @@
     "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
     "processingTime": 320,
     "output": {
-        "item": "appliedenergistics2:crafting_unit",
+        "item": "appliedenergistics2:energy_acceptor",
         "count": 1
     },
     "type": "industrialforegoing:dissolution_chamber"
