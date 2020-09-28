@@ -1,19 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "PSP",
+        "SSS",
         "SPS",
-        "PSP"
+        "SSS"
     ],
     "key": {
         "S": {
-            "tag": "minecraft:logs"
+            "tag": "forge:cobblestone"
         },
         "P": {
-            "tag": "forge:rods/wooden"
+            "item": "woodenutilities:wooden_furnace"
         }
     },
     "result": {
-        "item": "vanillatweaks:pad"
+        "item": "minecraft:furnace"
     }
 }
