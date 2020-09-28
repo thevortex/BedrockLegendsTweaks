@@ -7,7 +7,7 @@
     ],
     "key": {
         "C": {
-            "tag": "forge:chests"
+            "item": "woodenutilities:wooden_hopper"
         },
         "I": {
             "tag": "forge:plates/iron"

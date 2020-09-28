@@ -14,7 +14,7 @@
             "tag": "forge:gems/mana_diamond"
         },
         "B": {
-            "tag": "minecraft:golden_sword"
+            "item": "minecraft:golden_sword"
         }
     },
     "result": {
