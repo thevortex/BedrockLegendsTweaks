@@ -44,6 +44,14 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     ordering="BEFORE"
     side="BOTH"
 
+
+[[dependencies.bltweaks]]
+    modId="aquaculture"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
 [[dependencies.bltweaks]]
     modId="ars_nouveau"
     mandatory=false
@@ -94,6 +102,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="citadel"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="clickmachine"
     mandatory=false
     versionRange="[0,99)"
@@ -109,6 +124,20 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="cosmeticarmorreworked"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="craftingtweaks"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="cucumber"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -178,6 +207,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="forbidden_arcanus"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="ftbchunks"
     mandatory=false
     versionRange="[0,99)"
@@ -186,6 +222,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="golems"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="immersiveengineering"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -207,6 +250,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="ironchest"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="ironjetpacks"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
@@ -283,6 +333,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
+    modId="rats"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
     modId="realms"
     mandatory=false
     versionRange="[0,99)"
@@ -333,6 +390,13 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
 
 [[dependencies.bltweaks]]
     modId="shetiphianguide"
+    mandatory=false
+    versionRange="[0,99)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.bltweaks]]
+    modId="sodium"
     mandatory=false
     versionRange="[0,99)"
     ordering="BEFORE"
