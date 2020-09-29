@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SQS",
+        " S "
+    ],
+    "key": {
+        "Q": {
+            "item": "woodenutilities:crafting_slab"
+        },
+        "S": {
+            "item": "byg:rainbow_eucalyptus_planks"
+        }
+    },
+    "result": {
+        "item": "byg:rainbow_eucalyptus_crafting_table"
+    }
+}
