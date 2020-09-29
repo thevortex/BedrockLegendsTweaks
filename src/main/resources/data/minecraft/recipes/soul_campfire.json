@@ -10,7 +10,7 @@
             "tag": "minecraft:logs"
         },
         "S": {
-            "tag": "forge:rods/wooden"
+            "tag": "forge:rods/treated_wood"
         },
         "#": {
             "item": "ironcoals:diamond_coal_block"

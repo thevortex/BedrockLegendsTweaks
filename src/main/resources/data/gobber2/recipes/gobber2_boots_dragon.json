@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#J ",
+        "   ",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "allthemodium:unobtainium_boots"
+        },
+        "J": {
+            "item": "gobber2:dragon_star"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_boots_dragon"
+    }
+}
