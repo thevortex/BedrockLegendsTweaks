@@ -40,7 +40,7 @@ public class UpdateDRP {
 				final ClientPlayerEntity player = (ClientPlayerEntity) event.getEntity();
 				if (player.getUniqueID().equals(Minecraft.getInstance().player.getUniqueID())) {
 					
-					DRP.setDimension(player.getEntityWorld().field_234921_x_.field_241504_y_.getPath());
+					DRP.setDimension(player.getEntityWorld().dimensionType.infiniburn.getPath());
 				}
 			}
 		}

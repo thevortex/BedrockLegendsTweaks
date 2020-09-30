@@ -72,8 +72,7 @@ public class DRP {
 	
 	
 	public static State getStateFromDimension(Dimension dimension) {
-		//func_236063_b_ = .getType()
-		switch (dimension.func_236063_b_().func_241513_m_()) {
+		switch (dimension.getDimensionType().getLogicalHeight()) { //IS THIS RIGHT??
 		case -1:
 			return new State(EnumState.NETHER);
 		case 0:
@@ -81,7 +80,7 @@ public class DRP {
 		case 1:
 			return new State(EnumState.END);
 		default:
-			return new State(EnumState.DIM, dimension.func_236063_b_().getSuffix());
+			return new State(EnumState.DIM, dimension.getDimensionType().getSuffix());
 		}
 	}
 	
