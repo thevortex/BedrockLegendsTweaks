@@ -53,13 +53,6 @@ description="BedrockLegends tweaks is a mod design to add specific tweaks to mod
     side="BOTH"
 
 [[dependencies.bltweaks]]
-    modId="ars_nouveau"
-    mandatory=false
-    versionRange="[0,99)"
-    ordering="BEFORE"
-    side="BOTH"
-
-[[dependencies.bltweaks]]
     modId="betteradvancements"
     mandatory=false
     versionRange="[0,99)"
