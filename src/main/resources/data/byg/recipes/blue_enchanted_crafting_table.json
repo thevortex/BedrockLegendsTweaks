@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SQS",
+        " S "
+    ],
+    "key": {
+        "Q": {
+            "item": "woodenutilities:crafting_slab"
+        },
+        "S": {
+            "item": "byg:blue_enchanted_planks"
+        }
+    },
+    "result": {
+        "item": "byg:blue_enchanted_crafting_table"
+    }
+}

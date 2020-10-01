@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SQS",
+        " S "
+    ],
+    "key": {
+        "Q": {
+            "item": "woodenutilities:crafting_slab"
+        },
+        "S": {
+            "item": "byg:witch_hazel_planks"
+        }
+    },
+    "result": {
+        "item": "byg:witch_hazel_crafting_table"
+    }
+}
