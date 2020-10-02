@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+	"C": {
+      "item": "ironchest:dirt_chest"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest"
+  }
+}
