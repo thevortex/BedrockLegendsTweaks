@@ -2,18 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " S ",
-        "SQS",
+        "S S",
         " S "
     ],
     "key": {
-        "Q": {
-            "item": "minecraft:chest"
-        },
         "S": {
-            "item": "cyclic:spikes_iron"
+            "item": "immersiveengineering:stick_treated"
         }
     },
     "result": {
-        "item": "minecraft:trapped_chest"
+        "item": "appliedenergistics2:wooden_gear"
     }
 }
