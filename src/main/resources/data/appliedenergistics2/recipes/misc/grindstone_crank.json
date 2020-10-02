@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "  S",
+        "  S"
+    ],
+    "key": {
+        "S": {
+            "item": "immersiveengineering:stick_treated"
+        }
+    },
+    "result": {
+        "item": "appliedenergistics2:crank"
+    }
+}
