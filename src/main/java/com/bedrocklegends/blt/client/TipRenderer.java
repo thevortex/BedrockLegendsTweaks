@@ -28,6 +28,8 @@ public class TipRenderer {
 
     private static MatrixStack stack = new MatrixStack();
 
+    private static final TipRenderer BLANK = new TipRenderer("", "");
+
     public TipRenderer(String tipTile, String tip) {
         this.tipTile = tipTile;
         this.tip = tip;
@@ -35,9 +37,12 @@ public class TipRenderer {
 
     public static TipRenderer getTip() {
         Map<String, String> tips = getTips();
-        int randomIndex = new Random().nextInt(tips.size());
-        String key = new ArrayList<>(tips.keySet()).get(randomIndex);
-        return new TipRenderer(key, tips.get(key));
+        if(tips.size() > 0){
+            int randomIndex = new Random().nextInt(tips.size());
+            String key = new ArrayList<>(tips.keySet()).get(randomIndex);
+            return new TipRenderer(key, tips.get(key));
+        }
+        return BLANK;
     }
 
     public static void renderTipOnScreen(Screen screen, String tipTitle, String tip) {

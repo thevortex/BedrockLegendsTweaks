@@ -4,7 +4,7 @@ package com.bedrocklegends.blt.proxy;
 import com.bedrocklegends.blt.DRP;
 import com.bedrocklegends.blt.UpdateDRP;
 
-import com.bedrocklegends.blt.client.event.DarkUIResourcePackCreation;
+import com.bedrocklegends.blt.client.DarkUIResourcePackCreation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.World;
