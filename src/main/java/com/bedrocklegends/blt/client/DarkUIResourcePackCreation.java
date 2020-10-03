@@ -1,4 +1,4 @@
-package com.bedrocklegends.blt.client.event;
+package com.bedrocklegends.blt.client;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
