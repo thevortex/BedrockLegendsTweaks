@@ -31,7 +31,7 @@ public class ConfigButton extends Widget {
         mc.getTextureManager().bindTexture(CONFIG_BUTTON);
         GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 
-        if(!isHovered)
+        if (!isHovered)
             this.blit(stack, this.x, this.y, 0, 0, 20, 20);
         else this.blit(stack, this.x, this.y, 20, 0, 20, 20);
     }
