@@ -1,5 +1,6 @@
 package com.bedrocklegends.blt.client;
 
+import com.bedrocklegends.blt.BLTweaks;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.client.ClientModLoader;
@@ -14,9 +15,9 @@ import java.util.Arrays;
 import java.util.Collection;
 
 /* @author lazyMods */
-public class DarkUIResourcePackCreation {
+public class DarkUIResourcePack {
 
-    public static void createResourcePacks() {
+    public static void createResourcePack() {
         StartupMessageManager.addModMessage("[DarkUI]: Checking resource packs...");
 
         Collection<ResourceLocation> locations = Minecraft.getInstance().getResourceManager().getAllResourceLocations("mods", (s) -> s.endsWith(".png"));
@@ -41,8 +42,7 @@ public class DarkUIResourcePackCreation {
                 e.printStackTrace();
             }
         });
-        if (!Files.exists(Paths.get(FMLPaths.GAMEDIR.get().toString() + "/resourcepacks/DarkUI/" + "pack.mcmeta")))
-            createResourcePackMetaFile();
+        createResourcePackMetaFile();
         StartupMessageManager.addModMessage("[DarkUI]: Done.");
     }
 
@@ -69,8 +69,7 @@ public class DarkUIResourcePackCreation {
             writer.append("{\n" +
                     "    \"pack\": {\n" +
                     "        \"description\": \"DarkUI\",\n" +
-                    "        \"pack_format\": 6,\n" +
-                    "        \"_comment\": \"A pack_format of 6 requires json lang files. Note: we require v5 pack meta for all mods.\"\n" +
+                    "        \"pack_format\": " + BLTweaks.PACK_FORMAT_VERSION + ",\n" +
                     "    }\n" +
                     "}");
             writer.flush();

@@ -1,6 +1,6 @@
 package com.bedrocklegends.blt.client.screen;
 
-import com.bedrocklegends.blt.client.DarkUIResourcePackCreation;
+import com.bedrocklegends.blt.client.DarkUIResourcePack;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -39,7 +39,7 @@ public class ConfigsScreen extends Screen {
             @Override
             public void onPress() {
                 super.onPress();
-                DarkUIResourcePackCreation.reload(this.isChecked());
+                DarkUIResourcePack.reload(this.isChecked());
                 configs.put(DARK_UI, this.isChecked());
                 saveConfigs();
             }
@@ -62,8 +62,8 @@ public class ConfigsScreen extends Screen {
         super.render(matrixStack, mouseX, mouseY, partialTicks);
     }
 
-    public boolean checkAndReturnBoolean(String key){
-        return this.configs.containsKey(key) ? (Boolean)this.configs.get(key) : false;
+    public boolean checkAndReturnBoolean(String key) {
+        return this.configs.containsKey(key) ? (Boolean) this.configs.get(key) : false;
     }
 
     public void saveConfigs() {
@@ -81,7 +81,7 @@ public class ConfigsScreen extends Screen {
         Map<String, Object> configs = new HashMap<>();
         try {
             File bltconfigs = new File(FMLPaths.GAMEDIR.get() + "/blt_configs.json");
-            if(!Files.exists(Paths.get(bltconfigs.toURI()))){
+            if (!Files.exists(Paths.get(bltconfigs.toURI()))) {
                 configs = new HashMap<>();
                 configs.put(DARK_UI, false);
                 configs.put(RENDER_TIPS, true);
