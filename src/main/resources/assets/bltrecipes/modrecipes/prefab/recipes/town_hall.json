@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "prefab:config_recipe",
+      "recipeKey": "Town Hall"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "Town Hall",
+  "pattern": [
+    "bab",
+    "ded",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "mysticalagriculture:wood_essence"
+    },
+    "b": {
+      "item": "mysticalagriculture:stone_essence"
+    },
+    "c": {
+      "item": "mysticalagriculture:dirt_essence"
+    },
+    "d": {
+      "item": "prefab:block_paper_lantern"
+    },
+    "e": {
+      "item": "mysticalagriculture:wood_essence"
+    }
+  },
+  "result": {
+    "item": "prefab:item_town_hall",
+    "count": 1
+  }
+}
