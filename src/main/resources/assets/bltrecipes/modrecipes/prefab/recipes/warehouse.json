@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "prefab:config_recipe",
+      "recipeKey": "Warehouse"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "Warehouse",
+  "pattern": [
+    "a a",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "mysticalagriculture:stone_essence"
+    },
+    "b": {
+      "item": "immersiveengineering:crate"
+    },
+    "c": {
+      "item": "mysticalagriculture:glowstone_essence"
+    },
+    "d": {
+      "item": "mysticalagriculture:stone_essence"
+    }
+  },
+  "result": {
+    "item": "prefab:item_warehouse",
+    "count": 1
+  }
+}
