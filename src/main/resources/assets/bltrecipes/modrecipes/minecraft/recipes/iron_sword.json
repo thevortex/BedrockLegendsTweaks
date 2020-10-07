@@ -10,7 +10,7 @@
             "tag": "forge:ingots/iron"
         },
         "B": {
-            "item": "minecraft:stone_shovel"
+            "item": "minecraft:stone_sword"
         },
         "C": {
             "tag": "forge:rods/iron"
