@@ -25,8 +25,8 @@
             "tag": "forge:silicon"
         }
     ],
-    "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
-    "processingTime": 200,
+    "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
+    "processingTime": 320,
     "output": {
         "item": "refinedstorage:controller",
         "count": 1
