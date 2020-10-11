@@ -23,6 +23,6 @@
   "time": 1200,
   "render": {
     "type": "crop",
-    "block": "mysticalagriculture:emerald_crop"
+    "block": "mysticalagriculture:v_crop"
   }
 }
