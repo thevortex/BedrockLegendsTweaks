@@ -1,22 +1,19 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "ACA",
-    "CBC",
-    "ACA"
+    "ABA",
+    "BAB",
+    "ABA"
   ],
   "key": {
     "A": {
-      "item": "extendedcrafting:black_iron_ingot"
+      "item": "extendedcrafting:black_iron_slate"
     },
     "B": {
-      "item": "extendedcrafting:frame"
-    },
-    "C": {
-      "tag": "forge:storage_blocks/lapis"
+      "tag": "forge:storage_blocks/double_compressed_stone"
     }
   },
   "result": {
-    "item": "rftoolsbase:machine_frame"
+    "item": "rftoolsbase:machine_base"
   }
 }
