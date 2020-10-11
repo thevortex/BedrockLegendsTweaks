@@ -1,7 +1,7 @@
 {
   "type": "mysticalagriculture:infusion",
   "input": {
-    "item": "refinedstorage:1k_storage_part"
+    "item": "refinedstorage:256k_fluid_storage_part"
   },
   "ingredients": [
     {
@@ -30,6 +30,6 @@
     }
   ],
   "result": {
-    "item": "refinedstorage:1k_storage_disk"
+    "item": "refinedstorage:256k_fluid_storage_disk"
   }
 }
