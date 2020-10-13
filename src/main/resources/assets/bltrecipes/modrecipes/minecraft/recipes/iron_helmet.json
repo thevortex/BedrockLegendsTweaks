@@ -8,7 +8,7 @@
   ],
     "key": {
         "A": {
-            "tag": "minecraft:beacon_payment_items"
+            "tag": "forge:ingots/iron"
         },
         "B": {
             "item": "minecraft:chainmail_helmet"
