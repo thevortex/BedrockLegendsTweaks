@@ -1,3 +1,4 @@
+
 {
     "input": [
         {
@@ -32,4 +33,40 @@
         "count": 1
     },
     "type": "industrialforegoing:dissolution_chamber"
+
+{
+    "input": [
+        {
+            "tag": "forge:silicon"
+        },
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "tag": "forge:silicon"
+        },
+        {
+            "item": "refinedstorage:quartz_enriched_iron_block"
+        },
+        {
+            "item": "refinedstorage:quartz_enriched_iron_block"
+        },
+        {
+            "tag": "forge:silicon"
+        },
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "tag": "forge:silicon"
+        }
+    ],
+    "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
+    "processingTime": 320,
+    "output": {
+        "item": "refinedstorage:controller",
+        "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+
 }
