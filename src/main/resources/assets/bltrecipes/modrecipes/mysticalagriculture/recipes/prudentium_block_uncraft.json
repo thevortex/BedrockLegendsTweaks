@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_drill",
+  "input": {
+    "item": "mysticalagriculture:prudentium_block"
+  },
+  "result": {
+    "item": "mysticalagriculture:prudentium_essence",
+    "count": 9
+  },
+  "program": "drill"
+}
