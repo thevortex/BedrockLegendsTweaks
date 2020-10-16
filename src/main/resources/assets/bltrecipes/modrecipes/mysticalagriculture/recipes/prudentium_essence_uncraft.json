@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:air"
+  }
+}
