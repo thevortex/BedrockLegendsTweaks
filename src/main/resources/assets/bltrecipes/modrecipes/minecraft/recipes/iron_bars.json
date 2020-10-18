@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#z#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "z": {
+      "item": "woodenutilities:wooden_bars"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_bars",
+    "count": 16
+  }
+}
